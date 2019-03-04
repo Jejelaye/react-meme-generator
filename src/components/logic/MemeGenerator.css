@@ -1,0 +1,33 @@
+input[type=text] {
+  margin-right: 10px;
+  /* border-radius: 2px; */
+}
+button {
+  background: #5EADE0;
+  color: #fff;
+}
+section {
+  width: 600px;
+  max-height: 500px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.top, .bottom {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  font: outline;
+  outline-color: black;
+  font-family: Algerian, 'Times New Roman', Times, serif;
+}
+.top {
+  top: 0;
+  text-align: center;
+}
+.bottom {
+  bottom: 0;
+  text-align: center;
+}
